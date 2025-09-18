@@ -59,7 +59,7 @@ public class AddCityFragment extends DialogFragment {
                     } else {
                         finalCityToEdit.setName(cityName);
                         finalCityToEdit.setProvince(provinceName);
-                        listener.addCity(finalCityToEdit); // refresh
+                        listener.addCity(finalCityToEdit);
                     }
                 })
                 .create();
